@@ -1,0 +1,4 @@
+.cell {
+    display: grid;
+    border: 1px solid black;
+}
