@@ -1,3 +1,8 @@
+import '/.LetterCell.css'
+
+function LetterCell() {
+  return (
+    <>
 <html lang="en">
 
 <head>
@@ -13,3 +18,8 @@
 </div>
 </body>
 </html>
+</>
+  );
+}
+
+export default LetterCell;
