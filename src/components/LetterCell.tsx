@@ -3,8 +3,9 @@ import './LetterCell.css'
 function LetterCell() {
   return (
     <>
-<div className="Cell">
-  <span className="number"></span>
+<div className="cell">
+  <span className="number">12</span>
+  <div className="letter">X</div>
 </div>
 </>
   );
