@@ -1,5 +1,8 @@
 import './LetterCell.css'
 
+const LetterCell = (props: any) => {
+
+};
 function LetterCell() {
   return (
     <>
