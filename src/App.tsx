@@ -5,10 +5,7 @@ import './App.css'
 function App() {
   return (
 <main> 
-  <LetterCell 
-  letter="X"
-  number="12"
-  />
+  <LetterCell />
 </main>
   );
 }

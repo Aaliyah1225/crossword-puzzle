@@ -1,11 +1,13 @@
 import './LetterCell.css'
 
-function LetterCell(props: any) {
+
+function LetterCell() {
   return (
+
     <>
 <div className="cell">
-  <span>{props.number}</span>
-  <div>{props.letter}</div>
+  <span className="number"></span>
+  <div className="letter">X</div>
 </div>
 </>
   );
