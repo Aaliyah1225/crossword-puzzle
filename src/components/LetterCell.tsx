@@ -1,6 +1,5 @@
 import './LetterCell.css'
 
-
 function LetterCell(props: any) {
   return (
 
