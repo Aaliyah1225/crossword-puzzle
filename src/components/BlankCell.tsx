@@ -1,9 +1,9 @@
-import './BlankCell.css/'
+import styles from "./BlankCell.module.css"
 
 function BlankCell() {
     return (
 <>
-<div className="blank cell"></div>
+<div className={styles.blank}></div>
 </>
     );
 }
