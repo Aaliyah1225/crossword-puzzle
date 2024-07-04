@@ -4,7 +4,7 @@ function LetterCell(props: any) {
   return (
 
     <>
-<div className={`${styles.cell} ${cellStyles.cell}`}>
+<div className={`${cellStyles.cell}`}>
   <span className={`${styles.number}`}>{props.number}</span>
   <div className={`${styles.letter}`}>{props.letter}</div>
 </div>
