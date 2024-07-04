@@ -1,10 +1,4 @@
-.cell {
-    display: grid;
-    border: 1px solid black;
-    position: relative;
-    width: 2em;
-    height: 2em;
-}
+
 .number {
     position: absolute;
     top: 5%;
