@@ -1,13 +1,11 @@
-
-import CrosswordGrid from './components/CrosswordGrid'
-import './App.css'
-
+import CrosswordGrid from "./components/CrosswordGrid";
+import "./App.css";
 
 function App() {
   return (
-<main> 
-< CrosswordGrid />
-</main>
+    <main>
+      <CrosswordGrid />
+    </main>
   );
 }
 
