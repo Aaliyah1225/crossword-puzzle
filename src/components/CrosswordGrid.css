@@ -1,5 +1,5 @@
 .crossword {
-    display: grid;
-    grid-template-columns: 35px 35px 35px 35px 35px 35px;
-    margin: auto;
+  display: inline-grid;
+  grid-template-columns: repeat(6, max-content);
+  padding: 1px;
 }
