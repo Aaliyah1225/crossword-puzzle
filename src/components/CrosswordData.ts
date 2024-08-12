@@ -19,5 +19,3 @@ const data: CrosswordData = {
     [".", ".", "N", "S", "F", "W"],
   ],
 };
-
-console.log(data)
