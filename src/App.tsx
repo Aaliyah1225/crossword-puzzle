@@ -1,17 +1,11 @@
-import BlankCell from './components/BlankCell'
-import LetterCell from './components/LetterCell'
-import './App.css'
-
+import CrosswordGrid from "./components/CrosswordGrid";
+import "./App.css";
 
 function App() {
   return (
-<main> 
-<BlankCell />
-  <LetterCell 
-  letter="X"
-  number="12"
-  />
-</main>
+    <main>
+      <CrosswordGrid />
+    </main>
   );
 }
 

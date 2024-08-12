@@ -1,0 +1,6 @@
+.crossword {
+  display: inline-grid;
+  grid-template-columns: repeat(6, max-content);
+  padding-left: 1px;
+  padding-top: 1px;
+}
