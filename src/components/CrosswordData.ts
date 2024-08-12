@@ -5,7 +5,7 @@ interface CrosswordData {
 }
 
 //Example Objects
-let data: CrosswordData = {
+const data: CrosswordData = {
   playerAnswer: [
     ["_", "_", "_", "_", ".", "."],
     ["_", "_", "_", "_", "_", "."],
