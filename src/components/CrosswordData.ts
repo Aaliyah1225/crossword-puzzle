@@ -5,7 +5,7 @@ interface CrosswordData {
 }
 
 //Example Objects
-const data: CrosswordData = {
+export const data: CrosswordData = {
   playerAnswer: [
     ["_", "_", "_", "_", ".", "."],
     ["_", "_", "_", "_", "_", "."],
