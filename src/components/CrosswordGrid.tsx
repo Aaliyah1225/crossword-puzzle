@@ -1,11 +1,16 @@
 import BlankCell from "./BlankCell";
 import LetterCell from "./LetterCell";
 import "./CrosswordGrid.css";
-function CrosswordGrid() {
+import { data } from "./CrosswordData.ts";
+export default function CrosswordGrid() {
+  const dataAnswer = data.playerAnswer.map((answer) => 
+    <div>{answer}</div>
+  );
+
   return (
     <>
       <div className="crossword">
-        <LetterCell number="1" />
+        <LetterCell letter={dataAnswer} number="1" />
         <LetterCell number="2" />
         <LetterCell number="3" />
         <LetterCell number="4" />
@@ -33,5 +38,3 @@ function CrosswordGrid() {
     </>
   );
 }
-
-export default CrosswordGrid;
