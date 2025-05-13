@@ -1,9 +1,9 @@
 import styles from "./BlankCell.module.css";
 import cellStyles from "./Cell.module.css";
-function BlankCell() {
+function BlankCell(props: any) {
   return (
     <>
-      <div className={`${styles.blank} ${cellStyles.cell}`}></div>
+      <div className={`${styles.blank} ${cellStyles.cell}`}>{props.blank}</div>
     </>
   );
 }
