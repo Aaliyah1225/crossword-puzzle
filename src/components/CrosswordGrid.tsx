@@ -24,14 +24,14 @@ export default function CrosswordGrid() {
         <LetterCell letter={dataAnswer[2][1]} number="10" />
         <LetterCell letter={dataAnswer[2][2]} number="11" />
         <LetterCell letter={dataAnswer[2][3]} number="12" />
-        <LetterCell letter={dataAnswer[2][4]} number="12" />
-        <LetterCell letter={dataAnswer[2][5]} number="13" />
+        <LetterCell letter={dataAnswer[2][4]} number="13" />
+        <LetterCell letter={dataAnswer[2][5]} number="14" />
         <BlankCell blank={dataAnswer[3][0]} />
         <BlankCell blank={dataAnswer[3][1]} />
-        <LetterCell letter={dataAnswer[3][2]} number="14" />
-        <LetterCell letter={dataAnswer[3][3]} number="15"/>
-        <LetterCell letter={dataAnswer[3][4]} number="16"/>
-        <LetterCell letter={dataAnswer[3][5]} number="17"/>
+        <LetterCell letter={dataAnswer[3][2]} number="15" />
+        <LetterCell letter={dataAnswer[3][3]} number="16"/>
+        <LetterCell letter={dataAnswer[3][4]} number="17"/>
+        <LetterCell letter={dataAnswer[3][5]} number="18"/>
       </div>
     </>
   );
