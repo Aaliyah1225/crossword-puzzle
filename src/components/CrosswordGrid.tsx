@@ -3,6 +3,7 @@ import LetterCell from "./LetterCell";
 import "./CrosswordGrid.css";
 import { data } from "./CrosswordData.ts";
 export default function CrosswordGrid() {
+
   const dataAnswer = data.playerAnswer.map((answer) => answer);
 
   return (
