@@ -6,3 +6,7 @@
   width: 2em;
   height: 2em;
 }
+
+.cell:focus {
+  background-color: lightblue;
+}
